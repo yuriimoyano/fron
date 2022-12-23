@@ -1,0 +1,26 @@
+.fill-button,
+.wire-button {
+    border: solid 3px;
+    border-radius: var(--default-radius);
+    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    font-weight: 700;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.input {
+    text-align: left;
+}
+
+.input input {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: var(--default-radius);
+    background-color: rgb(213, 232, 232);
+    width: 100%;
+}
+
+.checkbox input {
+    margin-right: 0.5rem;
+}

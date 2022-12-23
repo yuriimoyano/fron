@@ -1,0 +1,34 @@
+.flex{
+    align-items: center;
+    gap: 1rem;
+}
+.wire-button{
+    background-color: transparent;
+    border: solid;
+    color: rgb(33, 188, 199);
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: calc(infinity * 1px);
+}
+.wire-button:hover{
+    background-color: rgb(33, 188, 199);
+    color: aliceblue;
+}
+.nav{
+    background-color: rgb(209, 232, 232);
+    max-width: 70rem;
+    margin: 0 auto;
+    font-style: center;
+    gap: 10px;
+}
+.menu li:last-child {
+    margin-left: auto;
+    gap: 10px;
+}
+.menu li:first-child{    
+    margin-right: auto;
+}

@@ -1,0 +1,43 @@
+.main-headline {
+  margin-top: 6.5rem;
+  font-weight: 100;
+}
+
+.main-headline .title {
+  font-size: 80px;
+  color: rgb(64, 20, 106);
+  font-style: center;
+}
+
+.supp-headline .content{
+    font-size: 50px;
+  color: rgb(114, 52, 172);
+}
+.supp-headline {
+  margin-top: 4rem;
+  margin-bottom: 0rem;
+}
+
+.illustration img {
+  max-width: 100%;
+}
+
+.grid {
+  grid-template-columns: repeat(1 1fr);
+  background-color: rgb(248, 246, 243);
+  max-width: 70rem;
+    margin: 0 auto;
+    font-style: center;
+    padding: 1rem;
+
+}
+
+@media (max-width: 45em) {
+  .header .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .header .illustration {
+    grid-row: 8;
+  }
+}
